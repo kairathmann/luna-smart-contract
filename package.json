@@ -1,10 +1,9 @@
 {
-  "name": "openzeppelin-solidity",
-  "version": "1.12.0",
-  "description": "Secure Smart Contract library for Solidity",
+  "name": "luna-token",
+  "version": "1.0.0",
+  "description": "Luna ERC20 Token",
   "files": [
-    "contracts",
-    "test"
+    "contracts"
   ],
   "scripts": {
     "test": "scripts/test.sh",
@@ -20,22 +19,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenZeppelin/zeppelin-solidity.git"
+    "url": "https://github.com/lunalabs/zeppelin-solidity.git"
   },
   "keywords": [
+    "luna",
+    "ERC20",
     "solidity",
     "ethereum",
     "smart",
-    "contracts",
-    "security",
-    "zeppelin"
+    "contracts"
   ],
-  "author": "Manuel Araoz <manuelaraoz@gmail.com>",
+  "author": "Andre Ornish <andre@meetluna.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OpenZeppelin/zeppelin-solidity/issues"
+    "url": "https://github.com/lunalabs/ethereum-smart-contract/issues"
   },
-  "homepage": "https://github.com/OpenZeppelin/zeppelin-solidity",
+  "homepage": "https://github.com/lunalabs/ethereum-smart-contract",
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-bignumber": "^2.0.2",
